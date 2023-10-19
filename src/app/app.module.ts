@@ -8,6 +8,8 @@ import { ProjetosComponent } from './pages/projetos/projetos.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CardsComponent } from './components/cards/cards.component';
+import { CardPerfilComponent } from './components/card-perfil/card-perfil.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { FooterComponent } from './components/footer/footer.component';
     ProjetosComponent,
     NavbarComponent,
     NotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    CardsComponent,
+    CardPerfilComponent
   ],
   imports: [
     BrowserModule,

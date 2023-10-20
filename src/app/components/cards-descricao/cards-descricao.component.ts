@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards-descricao.component.css']
 })
 export class CardsDescricaoComponent {
+ cardId!: number;
 
+  constructor() {
+    this.cardId;
+  }
 }

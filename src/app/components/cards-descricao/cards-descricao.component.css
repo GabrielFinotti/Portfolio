@@ -1,6 +1,10 @@
+div {
+  max-width: 768px;
+}
 p {
   text-align: justify;
 }
+
 @media (min-width: 1024px) {
   p {
     font-size: 20px !important;

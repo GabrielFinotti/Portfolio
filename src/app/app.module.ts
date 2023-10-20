@@ -10,6 +10,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { CardPerfilComponent } from './components/card-perfil/card-perfil.component';
+import { CardsDescricaoComponent } from './components/cards-descricao/cards-descricao.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { CardPerfilComponent } from './components/card-perfil/card-perfil.compon
     NotFoundComponent,
     FooterComponent,
     CardsComponent,
-    CardPerfilComponent
+    CardPerfilComponent,
+    CardsDescricaoComponent
   ],
   imports: [
     BrowserModule,

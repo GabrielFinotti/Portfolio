@@ -1,4 +1,6 @@
+import { Time } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { TimeoutConfig } from 'rxjs';
 
 @Component({
   selector: 'app-not-found',
@@ -15,7 +17,7 @@ export class NotFoundComponent implements OnInit {
     setTimeout(() => {
       this.show = !this.show;
 
-      const interval = setInterval(() => {
+      const interval: any = setInterval(() => {
         this.contador++;
 
         if (this.contador == 5) {

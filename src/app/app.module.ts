@@ -11,6 +11,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { CardPerfilComponent } from './components/card-perfil/card-perfil.component';
 import { CardsDescricaoComponent } from './components/cards-descricao/cards-descricao.component';
+import { CardsProjetosComponent } from './components/cards-projetos/cards-projetos.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { CardsDescricaoComponent } from './components/cards-descricao/cards-desc
     FooterComponent,
     CardsComponent,
     CardPerfilComponent,
-    CardsDescricaoComponent
+    CardsDescricaoComponent,
+    CardsProjetosComponent
   ],
   imports: [
     BrowserModule,

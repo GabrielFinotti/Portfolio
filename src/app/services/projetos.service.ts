@@ -9,33 +9,33 @@ export class ProjetosService {
   constructor() {
     this.projetos = [
       {
-        src: '../../assets/imgs/Not-Found.png',
-        nome: 'Nome Projeto',
+        src: '',
+        nome: '',
         href: '',
       },
       {
-        src: '../../assets/imgs/Not-Found.png',
-        nome: 'Nome Projeto',
+        src: '',
+        nome: '',
         href: '',
       },
       {
-        src: '../../assets/imgs/Not-Found.png',
-        nome: 'Nome Projeto',
+        src: '',
+        nome: '',
         href: '',
       },
       {
-        src: '../../assets/imgs/Not-Found.png',
-        nome: 'Nome Projeto',
+        src: '',
+        nome: '',
         href: '',
       },
       {
-        src: '../../assets/imgs/Not-Found.png',
-        nome: 'Nome Projeto',
+        src: '',
+        nome: '',
         href: '',
       },
       {
-        src: '../../assets/imgs/Not-Found.png',
-        nome: 'Nome Projeto',
+        src: '',
+        nome: '',
         href: '',
       },
     ];

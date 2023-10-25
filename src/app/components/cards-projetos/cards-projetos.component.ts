@@ -9,6 +9,7 @@ import { ProjetosService } from 'src/app/services/projetos.service';
 export class CardsProjetosComponent implements OnInit {
   public projeto!: any[];
 
+
   constructor(private linkProjetos: ProjetosService) {
     this.projeto = this.linkProjetos.getProjeto();
   }

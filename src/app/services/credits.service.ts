@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class CreditsService {
-  private credits!: any[];
+  private credits!: Array<{ title: string; href: string; desc: string }>;
 
   constructor() {
     this.credits = [

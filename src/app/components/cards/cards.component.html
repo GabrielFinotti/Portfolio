@@ -1,0 +1,13 @@
+<div class="row row-cols-2 row-cols-md-4 g-5 mt-3 mb-3">
+  <div class="col" *ngFor="let card of cards">
+    <div
+      class="card border-0 align-items-center"
+      (click)="getId(cardId)"
+      [id]="card.id"
+      #cardId
+    >
+      <img class="card-img-top" [src]="card.src" [alt]="card.alt" />
+      <p class="card-text display-6 fs-5 fw-semibold">{{ card.nome }}</p>
+    </div>
+  </div>
+</div>

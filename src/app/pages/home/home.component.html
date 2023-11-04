@@ -1,0 +1,22 @@
+<div class="container-fluid mt-3 mb-3">
+  <div class="container-lg">
+    <div class="row">
+      <article class="" id="apresentacao">
+        <h2 class="card-title">Quem sou?</h2>
+        <app-card-perfil></app-card-perfil>
+      </article>
+    </div>
+    <div class="row mt-3">
+      <article id="habilidades">
+        <h2>Habilidades</h2>
+        <h6>Clique no ícone para saber mais...</h6>
+        <app-cards (cardId)="getIdCards($event)"></app-cards>
+      </article>
+    </div>
+    <div class="row mt-3">
+      <article id="descricao">
+        <app-cards-descricao [id]="id"></app-cards-descricao>
+      </article>
+    </div>
+  </div>
+</div>

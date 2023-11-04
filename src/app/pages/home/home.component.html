@@ -10,12 +10,12 @@
       <article id="habilidades">
         <h2>Habilidades</h2>
         <h6>Clique no ícone para saber mais...</h6>
-        <app-cards></app-cards>
+        <app-cards (cardId)="getIdCards($event)"></app-cards>
       </article>
     </div>
     <div class="row mt-3">
       <article id="descricao">
-        <app-cards-descricao></app-cards-descricao>
+        <app-cards-descricao [id]="id"></app-cards-descricao>
       </article>
     </div>
   </div>

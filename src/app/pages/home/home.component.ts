@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  
+  public id!: number;
+
+  public getIdCards(id: number) {
+    this.id = id;
+  }
 }

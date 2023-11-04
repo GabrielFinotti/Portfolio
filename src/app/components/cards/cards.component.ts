@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { CardsService } from 'src/app/services/cards.service';
 
 @Component({
@@ -7,14 +7,15 @@ import { CardsService } from 'src/app/services/cards.service';
   styleUrls: ['./cards.component.css'],
 })
 export class CardsComponent {
+  @Output() public cardId = new EventEmitter();
   public cards!: any[];
-  public cardId!: number;
 
   constructor(private cardsELement: CardsService) {
     this.cards = this.cardsELement.getCards();
   }
 
   getId(event: HTMLDivElement) {
-    this.cardId = parseInt(event.id);
+    let id = parseInt(event.id);
+    this.cardId.emit(id);
   }
 }

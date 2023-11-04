@@ -1,14 +1,13 @@
-import { Component } from '@angular/core';
-
+import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-cards-descricao',
   templateUrl: './cards-descricao.component.html',
-  styleUrls: ['./cards-descricao.component.css']
+  styleUrls: ['./cards-descricao.component.css'],
 })
 export class CardsDescricaoComponent {
- cardId!: number;
+  @Input() public id!: number;
 
   constructor() {
-    this.cardId;
+    this.id = this.id;
   }
 }

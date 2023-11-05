@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
+import { Credits } from 'src/app/interface/credits';
 
 @Injectable({
   providedIn: 'root',
 })
 export class CreditsService {
-  private credits!: Array<{ title: string; href: string; desc: string }>;
+  private credits!: Array<Credits>;
 
   constructor() {
     this.credits = [

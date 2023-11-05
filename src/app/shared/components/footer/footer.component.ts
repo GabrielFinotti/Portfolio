@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CreditsService } from 'src/app/services/credits.service';
+import { CreditsService } from 'src/app/shared/services/credits.service';
 
 @Component({
   selector: 'app-footer',

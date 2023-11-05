@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
+import { Cards } from 'src/app/interface/cards';
 
 @Injectable({
   providedIn: 'root',
 })
 export class CardsService {
-  private cards!: Array<{ id: number; src: string; alt: string; nome: string }>;
+  private cards!: Array<Cards>;
 
   constructor() {
     this.cards = [

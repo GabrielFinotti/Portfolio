@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProjetosService } from 'src/app/services/projetos.service';
+import { ProjetosService } from 'src/app/modules/projetos/services/projetos.service';
 
 @Component({
   selector: 'app-cards-projetos',

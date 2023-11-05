@@ -1,10 +1,11 @@
 import { Injectable } from '@angular/core';
+import { Projetos } from 'src/app/interface/projetos';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ProjetosService {
-  protected projetos!: Array<{nome: string, src: string, href: string}>;
+  protected projetos!: Array<Projetos>;
 
   constructor() {
     this.projetos = [

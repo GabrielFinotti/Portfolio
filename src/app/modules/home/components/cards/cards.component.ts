@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
-import { CardsService } from 'src/app/services/cards.service';
+import { CardsService } from 'src/app/modules/home/services/cards.service';
 
 @Component({
   selector: 'app-cards',

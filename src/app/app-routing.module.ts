@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
-import { ProjetosComponent } from './pages/projetos/projetos.component';
-import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { HomeComponent } from './modules/home/pages/home.component';
+import { ProjetosComponent } from './modules/projetos/pages/projetos/projetos.component';
+import { NotFoundComponent } from './modules/not-found/pages/not-found/not-found.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'projetos', component: ProjetosComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: NotFoundComponent },
 ];
 

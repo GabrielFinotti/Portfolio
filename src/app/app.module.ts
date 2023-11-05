@@ -1,37 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HomeModule } from './modules/home/home.module';
+import { ProjetosModule } from './modules/projetos/projetos.module';
+import { SharedModule } from './shared/shared.module';
+import { NotFoundModule } from './modules/not-found/not-found.module';
 import { AppRoutingModule } from './app-routing.module';
+
+// Components
 import { AppComponent } from './app.component';
-import { HomeComponent } from './pages/home/home.component';
-import { ProjetosComponent } from './pages/projetos/projetos.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { NotFoundComponent } from './pages/not-found/not-found.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { CardsComponent } from './components/cards/cards.component';
-import { CardPerfilComponent } from './components/card-perfil/card-perfil.component';
-import { CardsDescricaoComponent } from './components/cards-descricao/cards-descricao.component';
-import { CardsProjetosComponent } from './components/cards-projetos/cards-projetos.component';
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    ProjetosComponent,
-    NavbarComponent,
-    NotFoundComponent,
-    FooterComponent,
-    CardsComponent,
-    CardPerfilComponent,
-    CardsDescricaoComponent,
-    CardsProjetosComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HomeModule,
+    ProjetosModule,
+    SharedModule,
+    NotFoundModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

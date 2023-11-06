@@ -2,6 +2,10 @@
   <div class="col" *ngFor="let card of cards">
     <div
       class="card border-0 align-items-center"
+      [ngClass]="{
+        balanco: card.id % 2 == 1,
+        'balanco-reverse': card.id % 2 == 0
+      }"
       (click)="getId(cardId)"
       [id]="card.id"
       #cardId

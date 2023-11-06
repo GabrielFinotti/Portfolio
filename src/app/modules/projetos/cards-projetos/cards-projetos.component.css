@@ -1,3 +1,11 @@
+/* Formatações */
 img {
   width: 200px;
+}
+
+a:hover {
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  transform: scale(1.2);
 }

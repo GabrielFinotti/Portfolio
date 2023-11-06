@@ -1,3 +1,47 @@
+/* Animações */
+@keyframes balanco {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: -15px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+@keyframes balanco-reverse {
+  0% {
+    top: -15px;
+  }
+
+  50% {
+    top: 0;
+  }
+
+  100% {
+    top: -15px;
+  }
+}
+
+.balanco {
+  position: relative;
+  animation-name: balanco;
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.balanco-reverse {
+  position: relative;
+  animation-name: balanco-reverse;
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+/* Formatações */
 img {
   width: 50px;
 }

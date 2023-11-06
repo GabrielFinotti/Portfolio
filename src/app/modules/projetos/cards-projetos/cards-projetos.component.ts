@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ProjetosService } from 'src/app/modules/projetos/services/projetos.service';
 
 @Component({
@@ -6,12 +6,10 @@ import { ProjetosService } from 'src/app/modules/projetos/services/projetos.serv
   templateUrl: './cards-projetos.component.html',
   styleUrls: ['./cards-projetos.component.css'],
 })
-export class CardsProjetosComponent implements OnInit {
+export class CardsProjetosComponent {
   public projeto!: any[];
 
   constructor(private linkProjetos: ProjetosService) {
     this.projeto = this.linkProjetos.getProjeto();
   }
-
-  ngOnInit(): void {}
 }

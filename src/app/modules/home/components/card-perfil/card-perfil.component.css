@@ -1,5 +1,5 @@
 /* Animações */
-@keyframes balanco {
+@keyframes zoom {
   0% {
     transform: scale(0);
   }
@@ -19,7 +19,6 @@ p {
 }
 
 img {
-  animation-name: balanco;
+  animation-name: zoom;
   animation-duration: 1s;
-  animation-timing-function: ease;
 }

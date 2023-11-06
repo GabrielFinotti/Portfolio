@@ -1,7 +1,11 @@
 <div class="row row-cols-2 row-cols-md-4 g-5 mt-3 mb-3">
   <div class="col" *ngFor="let card of cards">
     <div
-      class="card border-0 align-items-center divCard"
+      class="card border-0 align-items-center"
+      [ngClass]="{
+        balanco: card.id % 2 == 1,
+        'balanco-reverse': card.id % 2 == 0
+      }"
       (click)="getId(cardId)"
       [id]="card.id"
       #cardId

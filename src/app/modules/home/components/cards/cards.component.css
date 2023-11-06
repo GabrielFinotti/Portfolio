@@ -12,16 +12,36 @@
     top: 0;
   }
 }
+@keyframes balanco-reverse {
+  0% {
+    top: -15px;
+  }
+
+  50% {
+    top: 0;
+  }
+
+  100% {
+    top: -15px;
+  }
+}
+
+.balanco {
+  position: relative;
+  animation-name: balanco;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.balanco-reverse {
+  position: relative;
+  animation-name: balanco-reverse;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
 
 /* Formatações */
 img {
   width: 50px;
-}
-
-.divCard {
-  position: relative;
-  animation-duration: 3s;
-  animation-name: balanco;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
 }

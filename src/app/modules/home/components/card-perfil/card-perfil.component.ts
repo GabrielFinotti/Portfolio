@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-card-perfil',
   templateUrl: './card-perfil.component.html',
-  styleUrls: ['./card-perfil.component.css']
+  styleUrls: ['./card-perfil.component.css'],
 })
-export class CardPerfilComponent {
+export class CardPerfilComponent implements OnInit {
 
+  ngOnInit(): void {
+    
+  }
 }

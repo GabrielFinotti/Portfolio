@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, OnInit } from '@angular/core';
+import { Component, Input, OnChanges } from '@angular/core';
 import { CardsService } from '../../services/cards.service';
 @Component({
   selector: 'app-cards-descricao',

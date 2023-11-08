@@ -3,4 +3,5 @@ export interface Cards {
   src: string;
   alt: string;
   nome: string;
+  desc: string;
 }

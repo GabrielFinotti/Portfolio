@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Credits } from 'src/app/interface/credits';
+import { Credits } from 'src/app/model/interface/credits';
 
 @Injectable({
   providedIn: 'root',

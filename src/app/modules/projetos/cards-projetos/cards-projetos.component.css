@@ -11,7 +11,8 @@
 
 .showProjects {
   animation-name: showProjects;
-  animation-duration: 1.2s;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
 }
 /* Formatações */
 img {

@@ -4,11 +4,7 @@
     class="text-decoration-none"
     *ngFor="let item of projeto"
   >
-    <div
-      class="card border-0 align-items-center pb-4 showProjects"
-      [id]="item.id"
-      #divProjects
-    >
+    <div class="card border-0 align-items-center pb-4 showProjects" [id]="item.id">
       <img
         [src]="
           item.src == '' || null

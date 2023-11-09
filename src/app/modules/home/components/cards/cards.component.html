@@ -7,6 +7,8 @@
         'balanco-reverse': card.id % 2 == 0
       }"
       (click)="getId(cardId)"
+      (mouseover)="removeAnimation(cardId)"
+      (mouseleave)="addAnimation(cardId)"
       [id]="card.id"
       #cardId
     >

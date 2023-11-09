@@ -45,3 +45,9 @@
 img {
   width: 50px;
 }
+
+.card:hover {
+  transform: scale(1.2);
+  transition-property: transform;
+  transition-duration: 500ms;
+}

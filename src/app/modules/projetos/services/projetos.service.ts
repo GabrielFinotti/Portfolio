@@ -13,31 +13,37 @@ export class ProjetosService {
         src: '',
         nome: '',
         href: '',
+        id: 1,
       },
       {
         src: '',
         nome: '',
         href: '',
+        id: 2,
       },
       {
         src: '',
         nome: '',
         href: '',
+        id: 3,
       },
       {
         src: '',
         nome: '',
         href: '',
+        id: 4,
       },
       {
         src: '',
         nome: '',
         href: '',
+        id: 5,
       },
       {
         src: '',
         nome: '',
         href: '',
+        id: 6,
       },
     ];
   }

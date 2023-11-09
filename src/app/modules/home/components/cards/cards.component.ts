@@ -22,7 +22,7 @@ export class CardsComponent {
     this.id = parseInt(event.id);
     this.cardId.emit(this.id);
   }
-
+  // Ao passar o mouse no elemento, ele verifica em que condição o id se encaixa e posteriormente remove a classe definida para cada condição!
   removeAnimation(event: HTMLDivElement) {
     this.id = parseInt(event.id);
     if (this.id % 2 == 0) {
@@ -31,7 +31,7 @@ export class CardsComponent {
       event.classList.remove('balanco');
     }
   }
-
+  // Ao retirar o mouse do elemento, ele verifica em que condição o id se encaixa e posteriormente adiciona a classe definida para cada condição!
   addAnimation(event: HTMLDivElement) {
     this.id = parseInt(event.id);
     if (this.id % 2 == 0) {

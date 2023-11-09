@@ -1,3 +1,19 @@
+/* Animações */
+@keyframes showProjects {
+  from {
+    scale: 0;
+  }
+
+  to {
+    scale: 1;
+  }
+}
+
+.showProjects {
+  animation-name: showProjects;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
 /* Formatações */
 img {
   width: 200px;

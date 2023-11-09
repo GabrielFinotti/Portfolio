@@ -1,21 +1,17 @@
 <div class="card border-0">
-  <div class="card-body">
+  <div class="card-body" *ngFor="let card of cardPerfil">
     <div class="row">
       <div class="col-md-4">
         <img
           class="card-img-top"
-          src="../../../assets/imgs/Foto tumb.png"
-          id="img-tumb"
+          [src]="card.src"
+          [id]="card.id"
+          [alt]="card.alt"
         />
       </div>
       <div class="col-md-8 mt-2">
         <p class="card-text lead fs-5">
-          Amante de tecnologia, desde criança sempre me interessei pela área da
-          computação, era um curioso e tentava compeender como um computador
-          funcionava. A partir dos meus 12 anos comecei a me aventurar na área
-          da progamação, consumindo conteúdos no YouTube e pesquisa na Web. Hoje
-          estudo e atuo no Frontend, aplicando meus conhecimentos em projetos
-          pessoais e profissionais!
+          {{card.desc}}
         </p>
       </div>
     </div>

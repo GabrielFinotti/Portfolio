@@ -66,7 +66,7 @@ export class CardsService {
         src: '../../../../assets/imgs/angular.png',
         alt: 'angular',
         nome: 'Angular',
-        desc: `Inicialmente comcei a estudar angular por necessidade, pois no meu primeiro
+        desc: `Inicialmente comecei a estudar angular por necessidade, pois no meu primeiro
         projeto profissional foi utilizado a stack Angular e Spring Boot. Foi bem
         desafiador no início, além que foi por ele que tive meu primeiro contato com
         Typescript, contudo com o tempo, estudando e botando em prática o que fui

@@ -1,0 +1,12 @@
+/* Animações */
+
+/* Formatações */
+#cardDate {
+  background-color: black;
+  color: white;
+
+  position: relative;
+  width: 180px;
+  margin-left: auto;
+  border-radius: 50px 0 50px 0 ;
+}

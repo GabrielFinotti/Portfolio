@@ -29,6 +29,11 @@ export class CreditsService {
         href: 'https://www.flaticon.com/br/icones-gratis/bootstrap',
         desc: 'Bootstrap ícones criados por Freepik - Flaticon',
       },
+      {
+        title: 'Relógio Ícone',
+        href: 'https://www.flaticon.com/br/icones-gratis/relogio',
+        desc: 'Relógio ícones criados por Fahmi Yahya - Flaticon'
+      }
     ];
   }
 

@@ -22,14 +22,14 @@ export class DataTimeComponent implements OnInit {
     }, 1000);
   }
   // Função para executar a animação do card
-  rotateAnimation(event: HTMLImageElement) {
+  rotateAnimation() {
     // Condição passada para a verificação e troca da animação de saida e entrada do componente
     if (this.rotate == false) {
       this.reverse = false;
       this.rotate = true;
     } else {
       this.rotate = false;
-      this.reverse = true
+      this.reverse = true;
     }
   }
 }

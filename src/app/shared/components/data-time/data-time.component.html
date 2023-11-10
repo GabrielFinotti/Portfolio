@@ -3,14 +3,13 @@
     type="button"
     class="btn bg-black"
     [ngClass]="{ rotate: rotate, 'rotate-reverse': reverse }"
-    (click)="rotateAnimation(imgClock)"
+    (click)="rotateAnimation()"
   >
     <img
       class="position-relative"
       [ngClass]="{ 'img-rotate': rotate, 'img-reverse': reverse }"
       src="../../../../assets/imgs/date.png"
       alt="Relógio"
-      #imgClock
     />
   </button>
   <div

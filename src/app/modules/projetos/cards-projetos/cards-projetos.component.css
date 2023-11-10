@@ -19,6 +19,10 @@ img {
   width: 200px;
 }
 
+div.card {
+  scale: 0;
+}
+
 a:hover {
   transition-property: transform;
   transition-duration: 500ms;

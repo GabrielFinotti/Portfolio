@@ -15,7 +15,7 @@ export class DataTimeComponent implements OnInit {
     this.rotate = false;
     this.reverse = false;
   }
-
+  // Atualização da data dinâmicamente
   ngOnInit(): void {
     setInterval(() => {
       this.data = new Date();

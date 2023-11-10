@@ -12,31 +12,11 @@
     top: 0;
   }
 }
-@keyframes balanco-reverse {
-  0% {
-    top: -15px;
-  }
-
-  50% {
-    top: 0;
-  }
-
-  100% {
-    top: -15px;
-  }
-}
 
 .balanco {
   position: relative;
   animation-name: balanco;
-  animation-duration: 1500ms;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-}
-.balanco-reverse {
-  position: relative;
-  animation-name: balanco-reverse;
-  animation-duration: 1500ms;
+  animation-duration: 1200ms;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }

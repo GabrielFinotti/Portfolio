@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   public id!: number;
-  // Está pegando o valor enviado pelo elemento filho cards e anexando a variável this.id para posteriormente enviala para seu componete filho cards-descricao!
+  // Está pegando o valor enviado pelo elemento filho cards e anexando a variável this.id para posteriormente envia-la para seu componete filho cards-descricao!
   public getIdCards(id: number) {
     this.id = id;
   }

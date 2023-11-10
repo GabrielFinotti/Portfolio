@@ -1,14 +1,28 @@
-<div class="container-fluid">
-  <div class="container-lg">
-    <div class="row">
-      <div id="cardDate" class="p-4 mb-4 d-md-none">
-        <p class="text-center display-6">
-          {{ data | date : "dd/MM/yy" }}
-        </p>
-        <p class="text-center lead m-0 p-0">
-          {{ data | date : "HH:mm:ss" }}
-        </p>
-      </div>
-    </div>
+<div id="cardClock" class="mt-3 d-none d-md-block">
+  <button
+    type="button"
+    class="btn bg-black"
+    [ngClass]="{ rotate: rotate, 'rotate-reverse': reverse }"
+    (click)="rotateAnimation(imgClock)"
+  >
+    <img
+      class="position-relative"
+      [ngClass]="{ 'img-rotate': rotate, 'img-reverse': reverse }"
+      src="../../../../assets/imgs/date.png"
+      alt="Relógio"
+      #imgClock
+    />
+  </button>
+  <div
+    id="cardData"
+    class="bg-black text-bg-dark text-center"
+    [ngClass]="{ 'card-show': rotate, 'card-close': reverse }"
+  >
+    <p id="data">
+      {{ data | date : "dd/MM/yyy" }}
+    </p>
+    <p id="clock">
+      {{ data | date : "HH:mm:ss" }}
+    </p>
   </div>
 </div>

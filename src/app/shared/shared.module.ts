@@ -5,6 +5,7 @@ import { AppRoutingModule } from '../app-routing.module';
 // Componets
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { DataTimeComponent } from './components/data-time/data-time.component';
 
 
 
@@ -12,6 +13,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   declarations: [
     FooterComponent,
     NavbarComponent,
+    DataTimeComponent,
   ],
   imports: [
     CommonModule,
@@ -20,6 +22,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   exports: [
     FooterComponent,
     NavbarComponent,
+    DataTimeComponent
   ]
 })
 export class SharedModule { }

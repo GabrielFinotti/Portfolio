@@ -1,0 +1,120 @@
+/* Animações */
+@keyframes rotateClock {
+  to {
+    right: 114px;
+  }
+}
+
+@keyframes rotateClockReverse {
+  from {
+    right: 114px;
+  }
+}
+
+@keyframes imgRotate {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes imgReverse {
+  from {
+    rotate: 360deg;
+  }
+}
+
+@keyframes cardDateShow {
+  to {
+    right: 0;
+  }
+}
+
+@keyframes cardDateClose {
+  from {
+    right: 0;
+  }
+}
+
+/* Classe de animações */
+.rotate {
+  animation-name: rotateClock;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+
+.img-rotate {
+  animation-name: imgRotate;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+
+.img-reverse {
+  animation-name: imgReverse;
+  animation-duration: 800ms;
+}
+
+.rotate-reverse {
+  animation-name: rotateClockReverse;
+  animation-duration: 800ms;
+}
+
+.card-show {
+  animation-name: cardDateShow;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+
+.card-close {
+  animation-name: cardDateClose;
+  animation-duration: 800ms;
+}
+
+/* Formatações */
+button {
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-radius: 100px 0 0 100px;
+
+  position: fixed;
+  top: 11px;
+  right: -2px;
+
+  max-width: 42px;
+  z-index: 110000000;
+}
+
+img {
+  width: 32px;
+  bottom: 0.5px;
+  right: 8px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#data {
+  font-family: Karla;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#clock {
+  font-family: Krub;
+}
+
+#cardData {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-radius: 20px 0 0 20px;
+
+  position: fixed;
+  top: 4px;
+  right: -120px;
+
+  width: 120px;
+  height: 60px;
+  z-index: 100000000;
+}

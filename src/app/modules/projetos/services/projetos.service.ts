@@ -10,9 +10,9 @@ export class ProjetosService {
   constructor() {
     this.projetos = [
       {
-        src: '',
-        nome: '',
-        href: '',
+        src: '../../../../assets/imgProjects/PetLife.png',
+        nome: 'PetLife',
+        href: 'https://gabrielfinotti.github.io/PetLife/',
         id: 1,
       },
       {

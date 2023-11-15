@@ -13,7 +13,7 @@
             : item.src
         "
         class="card-img-top border-0 img-thumbnail"
-        alt="Projeto"
+        [alt]="item.alt == '' || null ? 'projeto' : item.alt"
       />
       <p class="card-text display-6 fs-5 fw-semibold">
         {{ item.nome == "" || null ? "Em Breve" : item.nome }}

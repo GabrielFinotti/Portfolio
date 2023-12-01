@@ -20,6 +20,7 @@ Bem-vindo ao meu portfólio! Sou apaixonado por desenvolvimento web e mobile. Me
    - Uma aplicação para listagem e cadastro de usuários.
    - Tecnologias utilizadas: Angular, PHP (API), MySQL.
    - [Acesse PS2 List](https://ps2list.netlify.app)
+   - [Link para o GitHub do PS2 List](https://github.com/GabrielFinotti/PS2List)
 
 2. **Brasilvagas**
    - Um site desenvolvido em equipe para disponibilizar vagas de empregos, incluindo vagas redirecionáveis.

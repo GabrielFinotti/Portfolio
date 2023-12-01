@@ -12,19 +12,19 @@ Bem-vindo ao meu portfólio! Sou apaixonado por desenvolvimento web e mobile. Me
 - Linguagens: HTML, CSS, JavaScript, TypeScript, PHP
 - Frameworks: Angular, Node.js (Express)
 - Bancos de Dados: MySQL, MongoDB
-- Pré-processadores: SCSS
+- Pré-processadores: SCSS (Sass)
 
 ## Projetos Destacados
 
 1. **PS2 List**
    - Uma aplicação para listagem e cadastro de usuários.
-   - Tecnologias utilizadas: Angular, PHP (API), MySQL.
+   - Tecnologias utilizadas: Angular, SCSS, PHP (API), MySQL.
    - [Acesse PS2 List](https://ps2list.netlify.app)
    - [Link para o GitHub do PS2 List](https://github.com/GabrielFinotti/PS2List)
 
 2. **Brasilvagas**
    - Um site desenvolvido em equipe para disponibilizar vagas de empregos, incluindo vagas redirecionáveis.
-   - Tecnologias utilizadas: Angular, Lumen (API), PostgreSQL.
+   - Tecnologias utilizadas: Angular, SCSS, Lumen (API), PostgreSQL.
    - [Link para o GitHub do Brasilvagas](https://github.com/GabrielFinotti/BrasilVagas-Frontend)
 
 ## Contato

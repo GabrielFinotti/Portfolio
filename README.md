@@ -1,4 +1,4 @@
-# Portfólio de Gabriel Henrique Finotti
+# Portfólio
 
 Bem-vindo ao meu portfólio! Sou apaixonado por desenvolvimento web, software e mobile. Meu objetivo é me tornar um programador experiente e contribuir para projetos inovadores.
 

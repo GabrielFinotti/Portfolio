@@ -30,6 +30,7 @@ Bem-vindo ao meu portfólio! Sou apaixonado por desenvolvimento web e mobile. Me
 ## Contato
 
 - Email: gabrielhenriquefinotti@gmail.com
-- GitHub: [Perfil no GitHub](https://github.com/GabrielFinotti)
+- Whatsapp: +55 (81) 98333-0498
+- GitHub: [GabrielFinotti](https://github.com/GabrielFinotti)
 
 Sinta-se à vontade para explorar meus projetos e entrar em contato para discussões ou oportunidades de colaboração e emprego. Obrigado por visitar!

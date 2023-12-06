@@ -1,6 +1,6 @@
-# Portfólio
+# Bem vindo ao meu Portfólio
 
-Bem-vindo ao meu portfólio! Sou apaixonado por desenvolvimento web e mobile. Meu objetivo é me tornar um programador experiente e contribuir para projetos inovadores.
+Olá! Sou Gabriel Henrique Finotti, um entusiasta do desenvolvimento web e mobile. Meu objetivo é me tornar um programador experiente e contribuir para projetos inovadores.
 
 ## Sobre Mim
 
@@ -9,10 +9,11 @@ Bem-vindo ao meu portfólio! Sou apaixonado por desenvolvimento web e mobile. Me
 
 ## Habilidades
 
-- Linguagens: HTML, CSS, JavaScript, TypeScript, PHP
-- Frameworks: Angular, Node.js (Express)
-- Bancos de Dados: MySQL, MongoDB
-- Pré-processadores: SCSS (Sass)
+- **Linguagens:** HTML, CSS, JavaScript, TypeScript, PHP
+- **Frameworks:** Angular, Node.js (Express), Bootstrap
+- **Bancos de Dados:** MySQL, MongoDB
+- **Pré-processadores:** SCSS (Sass)
+- **Ferramentas de Design:** Figma
 
 ## Projetos Destacados
 

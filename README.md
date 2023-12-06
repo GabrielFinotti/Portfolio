@@ -1,6 +1,6 @@
 # Bem vindo ao meu Portfólio
 
-Olá! Sou Gabriel Henrique Finotti, um entusiasta do desenvolvimento web e mobile. Meu objetivo é me tornar um programador experiente e contribuir para projetos inovadores.
+Olá! Sou Gabriel Henrique Finotti, um entusiasta do desenvolvimento web e mobile. Meu objetivo é me tornar um programador experiente e contribuir em projetos inovadores.
 
 ## Sobre Mim
 

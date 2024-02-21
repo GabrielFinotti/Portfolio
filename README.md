@@ -1,26 +1,24 @@
 # Bem vindo ao meu Portfólio
 
-Olá! Sou Gabriel Henrique Finotti, um entusiasta do desenvolvimento web e mobile. Meu objetivo é me tornar um programador experiente e contribuir em projetos inovadores.
+Olá! Sou Gabriel Henrique Finotti, um entusiasta do desenvolvimento web. Meu objetivo é me tornar um programador experiente e contribuir em projetos inovadores.
 
 ## Sobre Mim
 
 - **Nome:** Gabriel Henrique Finotti
-- **Áreas de Interesse:** Desenvolvimento Web, Desenvolvimento Mobile
+- **Áreas de Interesse:** Web Developer, Software Engineer
 
 ## Habilidades
 
-- **Linguagens:** HTML, CSS, JavaScript, TypeScript, PHP
+- **Linguagens:** HTML, CSS, JavaScript, TypeScript
 - **Frameworks:** Angular, Node.js (Express), Bootstrap
-- **Bancos de Dados:** MySQL, MongoDB
+- **Bancos de Dados:** MySQL, PostgreSQL, MongoDB
 - **Pré-processadores:** SCSS (Sass)
-- **Ferramentas de Design:** Figma
 
 ## Projetos Destacados
 
 1. **PS2 List**
    - Uma aplicação para listagem e cadastro de usuários.
    - Tecnologias utilizadas: Angular, SCSS, PHP (API), MySQL.
-   - [Acesse PS2 List](https://ps2list.netlify.app)
    - [Link para o GitHub do PS2 List](https://github.com/GabrielFinotti/PS2List)
 
 2. **Brasilvagas**
@@ -31,7 +29,7 @@ Olá! Sou Gabriel Henrique Finotti, um entusiasta do desenvolvimento web e mobil
 ## Contato
 
 - Whatsapp: +55 (81) 98333-0498
-- Email: gabrielhenriquefinotti@gmail.com
+- Email: finotti.dev@gmail.com
 - Instagram: [@finottidev.31](https://www.instagram.com/finottidev.31)
 - GitHub: [GabrielFinotti](https://github.com/GabrielFinotti)
 
